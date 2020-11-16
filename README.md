@@ -17,9 +17,11 @@ Flask-SQLAlchemy: to represent the user model and interface with our database
 
 ## run the app using this command
 In a terminal, you can set the FLASK_APP and FLASK_DEBUG values:
+Then use *flask run* command to run the app
 ```
 export FLASK_APP=project
 export FLASK_DEBUG=1
+flask run
 ```
 
 ```
