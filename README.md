@@ -7,3 +7,7 @@ Flask-SQLAlchemy: to represent the user model and interface with our database
 ## create a virtual env 
 python3 -m venv env
 
+```
+>>> from project import db, create_app, models
+>>> db.create_all(app=create_app())
+```
